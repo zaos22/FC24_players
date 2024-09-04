@@ -1,6 +1,7 @@
 <script setup>
 import PlayersCards from '../components/PlayersCard.vue'
 import Cards from '../components/Card.vue'
+import NeymarCard from '../assets/PlayerCards/Neymar.png'
 
 const Neymar = "Neymar Jr., born on February 5, 1992, in Mogi das Cruzes, Brazil, is a Brazilian footballer celebrated for his exceptional flair, creativity, and technical skill. Known for his dribbling ability, quick acceleration, and vision on the field, Neymar has become one of the most influential and marketable players in the world.";
 </script>
@@ -9,7 +10,7 @@ const Neymar = "Neymar Jr., born on February 5, 1992, in Mogi das Cruzes, Brazil
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="/assets/PlayerCards/Neymar.png" v-bind:textOverlay="Neymar" playerName="Neymar Jr." />
+        <PlayersCards v-bind:imgSrc="NeymarCard" v-bind:textOverlay="Neymar" playerName="Neymar Jr." />
       </div>
       <div>
         <Cards />
