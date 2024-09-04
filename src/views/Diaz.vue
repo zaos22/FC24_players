@@ -9,7 +9,7 @@ const Diaz = 'Luis Díaz, commonly known as "Lucho" Díaz, is a Colombian footba
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="src/assets/PlayerCards/Diaz.png" v-bind:textOverlay="Diaz" playerName="Luis Díaz" />
+        <PlayersCards imgSrc="../assets/PlayerCards/Diaz.png" v-bind:textOverlay="Diaz" playerName="Luis Díaz" />
       </div>
       <div>
         <Cards />
