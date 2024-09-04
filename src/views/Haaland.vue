@@ -9,7 +9,7 @@ const Haaland = "Erling Haaland is a Norwegian footballer, born on July 21, 2000
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/Haaland.png" v-bind:textOverlay="Haaland" playerName="Erling Haaland" />
+        <PlayersCards imgSrc="/assets/PlayerCards/Haaland.png" v-bind:textOverlay="Haaland" playerName="Erling Haaland" />
       </div>
       <div>
         <Cards />

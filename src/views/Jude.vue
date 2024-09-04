@@ -9,7 +9,7 @@ const Bellingham = "Jude Bellingham is an English footballer, born on June 29, 2
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/Bellingham.png" v-bind:textOverlay="Bellingham" playerName="Jude Bellingham" />
+        <PlayersCards imgSrc="/assets/PlayerCards/Bellingham.png" v-bind:textOverlay="Bellingham" playerName="Jude Bellingham" />
       </div>
       <div>
         <Cards />

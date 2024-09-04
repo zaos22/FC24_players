@@ -9,7 +9,7 @@ const Neymar = "Neymar Jr., born on February 5, 1992, in Mogi das Cruzes, Brazil
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/Neymar.png" v-bind:textOverlay="Neymar" playerName="Neymar Jr." />
+        <PlayersCards imgSrc="/assets/PlayerCards/Neymar.png" v-bind:textOverlay="Neymar" playerName="Neymar Jr." />
       </div>
       <div>
         <Cards />
