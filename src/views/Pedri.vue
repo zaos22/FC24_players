@@ -9,7 +9,7 @@ const Pedri = "Pedri González, commonly known as Pedri, is a Spanish footballer
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="src/assets/PlayerCards/Pedri.png" v-bind:textOverlay="Pedri" playerName="Pedri González" />
+        <PlayersCards imgSrc="../assets/PlayerCards/Pedri.png" v-bind:textOverlay="Pedri" playerName="Pedri González" />
       </div>
       <div>
         <Cards />

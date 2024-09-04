@@ -9,7 +9,7 @@ const Rudiger = "Antonio Rüdiger is a German footballer, born on March 3, 1993,
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="src/assets/PlayerCards/Rudiger.png" v-bind:textOverlay="Rudiger" playerName="Antonio Rüdiger" />
+        <PlayersCards imgSrc="../assets/PlayerCards/Rudiger.png" v-bind:textOverlay="Rudiger" playerName="Antonio Rüdiger" />
       </div>
       <div>
         <Cards />

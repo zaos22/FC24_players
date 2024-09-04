@@ -9,7 +9,7 @@ const Messi = "Lionel Messi is an Argentine footballer, born on June 24, 1987, i
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="src/assets/PlayerCards/Messi.png" v-bind:textOverlay="Messi" playerName="Lionel Messi" />
+        <PlayersCards imgSrc="../assets/PlayerCards/Messi.png" v-bind:textOverlay="Messi" playerName="Lionel Messi" />
       </div>
       <div>
         <Cards />
