@@ -54,14 +54,14 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 25px;
-  height: 80vh;
+  height: 75vh;
 }
 
 .card {
   border: none;
   background-color: transparent;
   width: 100%;
-  max-width: 250px;
+  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -77,7 +77,7 @@ export default {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   width: 100%;
-  max-width: 250px;
+  max-width: 400px;
   color: white;
   margin: 0 auto;
 }
@@ -105,7 +105,7 @@ export default {
   animation: slideInFromLeft 1s ease-in-out forwards;
 }
 
-@media only screen and (max-width: 853px) and (max-width: 1024px) {
+@media only screen and (max-width: 853px) {
   .content {
     height: 50vh;
   }
@@ -121,7 +121,7 @@ export default {
   }
 
   .content {
-    height: 120vh;
+    height: 100vh;
   }
 }
 </style>

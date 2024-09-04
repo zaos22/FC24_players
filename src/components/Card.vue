@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="footer  d-flex justify-content-center">
+  <div class="footer d-flex justify-content-center">
     <div class="row g-0">
       <div class="col-4">
         <div class="player-card" aria-label="Kylian Mbappé">
@@ -32,7 +32,7 @@ import { RouterLink } from 'vue-router'
 }
 
 .player-card:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 
 .col-4 {
