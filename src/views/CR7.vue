@@ -9,7 +9,7 @@ const CR7 = "Cristiano Ronaldo, also known as CR7, is a Portuguese footballer re
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/CR7.png" v-bind:textOverlay="CR7" playerName="Cristiano Ronaldo" />
+        <PlayersCards imgSrc="/assets/PlayerCards/CR7.png" v-bind:textOverlay="CR7" playerName="Cristiano Ronaldo" />
       </div>
       <div>
         <Cards />

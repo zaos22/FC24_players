@@ -9,7 +9,7 @@ const Musiala = "Jamal Musiala is a German footballer, born on February 26, 2003
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/Musiala.png" v-bind:textOverlay="Musiala" playerName="Jamal Musiala" />
+        <PlayersCards imgSrc="/assets/PlayerCards/Musiala.png" v-bind:textOverlay="Musiala" playerName="Jamal Musiala" />
       </div>
       <div>
         <Cards />

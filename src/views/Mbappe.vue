@@ -9,7 +9,7 @@ const Mbappe = "Kylian Mbappé is a French footballer, born on December 20, 1998
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="../assets/PlayerCards/Mbappe.png" v-bind:textOverlay="Mbappe" playerName="Kylian Mbappe" />
+        <PlayersCards imgSrc="/assets/PlayerCards/Mbappe.png" v-bind:textOverlay="Mbappe" playerName="Kylian Mbappe" />
       </div>
       <div>
         <Cards />
