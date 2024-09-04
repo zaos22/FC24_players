@@ -10,6 +10,12 @@
 body {
   min-height: 100vh;
   position: relative;
+  background: url("Background-image.jpg") no-repeat center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  overflow-x: hidden;
   transition: color 0.5s, background-color 0.5s;
   line-height: 1.6;
   font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
