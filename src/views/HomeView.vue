@@ -1,4 +1,5 @@
 <script setup>
+import Cards from '../components/Card.vue'
 </script>
 
 <template>
@@ -6,6 +7,9 @@
     <div class="row">
       <div class="title">
         WELCOME TO FC 24 PLAYER INFO
+      </div>
+      <div>
+        <Cards />
       </div>
     </div>
   </main>

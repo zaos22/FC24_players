@@ -14,7 +14,7 @@ const router = createRouter({
       path: '/mbappe',
       name: 'mbappe',
       component: Mbappe
-    }
+    },
   ]
 })
 
