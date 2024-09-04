@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router'
   width: 100%;
   display: flex;
   justify-content: start;
-  padding: 20px 0;
+  padding: 0;
 }
 
 .player-card {
