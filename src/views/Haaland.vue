@@ -2,14 +2,14 @@
 import PlayersCards from '../components/PlayersCard.vue'
 import Cards from '../components/Card.vue'
 
-const Mbappe = "Kylian Mbappé is a French footballer, born on December 20, 1998, in Bondy, France. Renowned for his blistering speed, exceptional technical skills, and remarkable goal-scoring ability, he has quickly risen to prominence as one of the best forwards in the world.";
+const Haaland = "Erling Haaland is a Norwegian footballer, born on July 21, 2000, in Leeds, England. Known for his incredible physicality, lightning-fast speed, and lethal goal-scoring instincts, Haaland has quickly established himself as one of the most prolific strikers in the world.";
 </script>
 
 <template>
   <main class="container">
     <div class="row">
       <div class="">
-        <PlayersCards imgSrc="src/assets/PlayerCards/Mbappe.png" v-bind:textOverlay="Mbappe" playerName="Kylian Mbappe" />
+        <PlayersCards imgSrc="src/assets/PlayerCards/Haaland.png" v-bind:textOverlay="Haaland" playerName="Erling Haaland" />
       </div>
       <div>
         <Cards />

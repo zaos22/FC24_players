@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router'
       </div>
       <div class="col-4">
         <div class="player-card" aria-label="Haaland">
-          <RouterLink to="/halaand">
+          <RouterLink to="/haaland">
             <img src="../assets/PlayerCards/Haaland.png" alt="Erling Haaland" width="100px" height="auto">
           </RouterLink>
         </div>
@@ -42,7 +42,7 @@ import { RouterLink } from 'vue-router'
       </div>
       <div class="col-4">
         <div class="player-card" aria-label="Jamal Musiala">
-          <RouterLink to="/jamal">
+          <RouterLink to="/musiala">
             <img src="../assets/PlayerCards/Musiala.png" alt="Jamal Musiala" width="100px" height="auto">
           </RouterLink>
         </div>

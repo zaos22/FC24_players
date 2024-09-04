@@ -23,7 +23,6 @@ import Cards from '../components/Card.vue'
   align-items: center; /* Centrado horizontal */
   min-height: 100vh; /* Altura mínima para centrar verticalmente */
   padding-bottom: 40px;
-  overflow: hidden;
 }
 
 .title {
